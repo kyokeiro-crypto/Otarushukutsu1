@@ -20,7 +20,7 @@ export default function App() {
       <header className="h-screen relative flex items-center text-white">
         <div 
           className="absolute inset-0 bg-cover bg-center z-0"
-          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')" }}
+          style={{ backgroundImage: "url('/Main.jpg')" }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-black/60 z-10" />
         <Reveal className="relative z-20 max-w-[1200px] mx-auto w-full px-[8%] text-left">
@@ -43,10 +43,10 @@ export default function App() {
           </Reveal>
           <Reveal delay={0.2} className="grid grid-cols-1 gap-6">
             <div className="relative overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.06)] bg-[#eaeaea] group aspect-[4/3]">
-              <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Floor Plan 1" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+              <img src="/Location.jpg" alt="Location" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
             <div className="relative overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.06)] bg-[#eaeaea] group aspect-[4/3]">
-              <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Floor Plan 2" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+              <img src="/小樽水族館.jpg.jpg" alt="Otaru Aquarium" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
           </Reveal>
         </div>
@@ -64,10 +64,10 @@ export default function App() {
           
           <Reveal className="grid grid-cols-1 md:grid-cols-2 gap-10">
             <div className="relative overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.06)] bg-[#eaeaea] group aspect-[4/3]">
-              <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="House Exterior Back" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+              <img src="/HouseFront.png.jpg" alt="House Front" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
             <div className="relative overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.06)] bg-[#eaeaea] group aspect-[4/3]">
-              <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="House Front detail" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+              <img src="/HouseBack.png" alt="House Back" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
           </Reveal>
         </div>
@@ -78,10 +78,10 @@ export default function App() {
         <div className="max-w-[1200px] mx-auto w-full grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
           <Reveal delay={0.2} className="grid grid-cols-1 gap-6 order-2 md:order-1">
             <div className="relative overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.06)] bg-[#eaeaea] group aspect-[4/3]">
-              <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Living Room" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+              <img src="/LivingRoom.png" alt="Living Room" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
             <div className="relative overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.06)] bg-[#eaeaea] group aspect-[4/3]">
-              <img src="https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Dining" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+              <img src="/Kitchen&Dining.png" alt="Kitchen and Dining" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
           </Reveal>
           <Reveal className="order-1 md:order-2">
@@ -108,17 +108,17 @@ export default function App() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Reveal>
               <div className="relative overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.06)] bg-[#eaeaea] group aspect-[4/3]">
-                <img src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Washitsu 1" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                <img src="/Washitsu1.png" alt="Washitsu 1" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
               </div>
             </Reveal>
             <Reveal delay={0.2}>
               <div className="relative overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.06)] bg-[#eaeaea] group aspect-[4/3]">
-                <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Bedroom 1" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                <img src="/Bedroom2.png" alt="Bedroom 2" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
               </div>
             </Reveal>
             <Reveal delay={0.4}>
               <div className="relative overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.06)] bg-[#eaeaea] group aspect-[4/3]">
-                <img src="https://images.unsplash.com/photo-1540518614846-7eded433c457?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Bedroom 2" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                <img src="/Bedroom3.png" alt="Bedroom 3" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
               </div>
             </Reveal>
           </div>
@@ -137,10 +137,15 @@ export default function App() {
           </Reveal>
           <Reveal delay={0.2} className="grid grid-cols-1 gap-6">
             <div className="relative overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.06)] bg-[#eaeaea] group aspect-[4/3]">
-              <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Garage" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+              <img src="/Garage.png" alt="Garage" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
-            <div className="relative overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.06)] bg-[#eaeaea] group aspect-[4/3]">
-              <img src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Storage" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+            <div className="grid grid-cols-2 gap-6">
+              <div className="relative overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.06)] bg-[#eaeaea] group aspect-[4/3]">
+                <img src="/StorageRoom.png" alt="Storage Room" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+              </div>
+              <div className="relative overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.06)] bg-[#eaeaea] group aspect-[4/3]">
+                <img src="/PowderRoom.png" alt="Powder Room" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+              </div>
             </div>
           </Reveal>
         </div>
@@ -159,6 +164,29 @@ export default function App() {
           <p className="text-accent text-xl font-sans tracking-wider">xinlu-xu@ambitious-jp.com</p>
         </Reveal>
       </footer>
+
+      {/* Floating Action Button for PDF Export */}
+      <a 
+        href={typeof window !== 'undefined' ? window.location.href : '/'}
+        target="_blank"
+        rel="noopener noreferrer"
+        onClick={(e) => {
+          // If we are already in a top-level window (not in iframe), just print directly
+          if (typeof window !== 'undefined' && window.self === window.top) {
+            e.preventDefault();
+            window.print();
+          }
+          // Otherwise, let the anchor tag naturally open a new tab (bypasses popup blockers)
+        }} 
+        className="no-print fixed bottom-8 right-8 bg-accent text-white px-6 py-3 rounded-full shadow-lg hover:bg-[#9a8c7a] transition-colors z-50 flex items-center gap-2 font-serif tracking-widest cursor-pointer"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+          <polyline points="7 10 12 15 17 10"/>
+          <line x1="12" x2="12" y1="15" y2="3"/>
+        </svg>
+        导出 PDF
+      </a>
     </div>
   );
 }

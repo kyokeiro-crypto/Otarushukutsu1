@@ -18,3 +18,48 @@ body {
   overflow-x: hidden;
   line-height: 1.8;
 }
+
+@media print {
+  @page {
+    margin: 0;
+    size: A4 portrait;
+  }
+  
+  body {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  
+  .no-print {
+    display: none !important;
+  }
+
+  /* Completely disable framer-motion animations for print */
+  * {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+    animation: none !important;
+  }
+
+  /* Format each section to be exactly one A4 page */
+  header {
+    height: 100vh !important;
+    page-break-after: always;
+  }
+  
+  section {
+    min-height: 100vh !important;
+    page-break-after: always;
+    page-break-inside: avoid;
+    padding: 10% 8% !important;
+  }
+  
+  footer {
+    height: 100vh !important;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    page-break-inside: avoid;
+  }
+}
