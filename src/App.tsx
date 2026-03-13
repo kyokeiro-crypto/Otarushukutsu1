@@ -20,7 +20,7 @@ export default function App() {
       <header className="h-screen relative flex items-center text-white">
         <div 
           className="absolute inset-0 bg-cover bg-center z-0"
-          style={{ backgroundImage: "url('/Main.jpg')" }}
+          style={{ backgroundImage: "url('./Main.jpg')" }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-black/60 z-10" />
         <Reveal className="relative z-20 max-w-[1200px] mx-auto w-full px-[8%] text-left">
@@ -43,10 +43,10 @@ export default function App() {
           </Reveal>
           <Reveal delay={0.2} className="grid grid-cols-1 gap-6">
             <div className="relative overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.06)] bg-[#eaeaea] group aspect-[4/3]">
-              <img src="/Location.jpg" alt="Location" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+              <img src="./Location.jpg" alt="Location" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
             <div className="relative overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.06)] bg-[#eaeaea] group aspect-[4/3]">
-              <img src="/小樽水族館.jpg.jpg" alt="Otaru Aquarium" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+              <img src="./小樽水族館.jpg.jpg" alt="Otaru Aquarium" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
           </Reveal>
         </div>
@@ -64,10 +64,10 @@ export default function App() {
           
           <Reveal className="grid grid-cols-1 md:grid-cols-2 gap-10">
             <div className="relative overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.06)] bg-[#eaeaea] group aspect-[4/3]">
-              <img src="/HouseFront.png.jpg" alt="House Front" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+              <img src="./HouseFront.jpg" alt="House Front" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
             <div className="relative overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.06)] bg-[#eaeaea] group aspect-[4/3]">
-              <img src="/HouseBack.png" alt="House Back" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+              <img src="./HouseBack.jpg" alt="House Back" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
           </Reveal>
         </div>
@@ -78,10 +78,10 @@ export default function App() {
         <div className="max-w-[1200px] mx-auto w-full grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
           <Reveal delay={0.2} className="grid grid-cols-1 gap-6 order-2 md:order-1">
             <div className="relative overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.06)] bg-[#eaeaea] group aspect-[4/3]">
-              <img src="/LivingRoom.png" alt="Living Room" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+              <img src="./LivingRoom.jpg" alt="Living Room" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
             <div className="relative overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.06)] bg-[#eaeaea] group aspect-[4/3]">
-              <img src="/Kitchen&Dining.png" alt="Kitchen and Dining" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+              <img src="./Kitchen&Dining.jpg" alt="Kitchen and Dining" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
           </Reveal>
           <Reveal className="order-1 md:order-2">
@@ -108,17 +108,17 @@ export default function App() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Reveal>
               <div className="relative overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.06)] bg-[#eaeaea] group aspect-[4/3]">
-                <img src="/Washitsu1.png" alt="Washitsu 1" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                <img src="./Washitsu1.jpg" alt="Washitsu 1" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
               </div>
             </Reveal>
             <Reveal delay={0.2}>
               <div className="relative overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.06)] bg-[#eaeaea] group aspect-[4/3]">
-                <img src="/Bedroom2.png" alt="Bedroom 2" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                <img src="./Bedroom2.jpg" alt="Bedroom 2" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
               </div>
             </Reveal>
             <Reveal delay={0.4}>
               <div className="relative overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.06)] bg-[#eaeaea] group aspect-[4/3]">
-                <img src="/Bedroom3.png" alt="Bedroom 3" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                <img src="./Bedroom3.jpg" alt="Bedroom 3" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
               </div>
             </Reveal>
           </div>
@@ -137,14 +137,14 @@ export default function App() {
           </Reveal>
           <Reveal delay={0.2} className="grid grid-cols-1 gap-6">
             <div className="relative overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.06)] bg-[#eaeaea] group aspect-[4/3]">
-              <img src="/Garage.png" alt="Garage" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+              <img src="./Garage.jpg" alt="Garage" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
             <div className="grid grid-cols-2 gap-6">
               <div className="relative overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.06)] bg-[#eaeaea] group aspect-[4/3]">
-                <img src="/StorageRoom.png" alt="Storage Room" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                <img src="./StorageRoom.jpg" alt="Storage Room" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
               </div>
               <div className="relative overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.06)] bg-[#eaeaea] group aspect-[4/3]">
-                <img src="/PowderRoom.png" alt="Powder Room" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                <img src="./PowderRoom.jpg" alt="Powder Room" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
               </div>
             </div>
           </Reveal>
